@@ -507,6 +507,7 @@ button {
   font-weight: bold;
   color: var(--gray-800);
   margin-bottom: var(--spacing-lg);
+  letter-spacing: 0.2em;
 }
 
 .image-slider {
@@ -1011,7 +1012,6 @@ button {
     justify-content: center;
   }
 
-  /* positional states - center uses the -240px translate you want */
   .images.left2,
   .images.right2 {
     display: none;
